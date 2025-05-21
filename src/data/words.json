@@ -1,0 +1,182 @@
+[
+  {
+    "word": "مرحبا",
+    "translation": "Hello",
+    "example": "مرحبا! كيف حالك؟",
+    "pronunciation": "marhaban"
+  },
+  {
+    "word": "نعم",
+    "translation": "Yes",
+    "example": "نعم، أنا أحب ذلك.",
+    "pronunciation": "na‘am"
+  },
+  {
+    "word": "لا",
+    "translation": "No",
+    "example": "لا، شكراً.",
+    "pronunciation": "laa"
+  },
+  {
+    "word": "شكراً",
+    "translation": "Thank you",
+    "example": "شكراً جزيلاً!",
+    "pronunciation": "shukran"
+  },
+  {
+    "word": "من فضلك",
+    "translation": "Please",
+    "example": "أعطني الماء، من فضلك.",
+    "pronunciation": "min faḍlik"
+  },
+  {
+    "word": "صباح الخير",
+    "translation": "Good morning",
+    "example": "صباح الخير! استيقظت باكرًا؟",
+    "pronunciation": "ṣabāḥ al-khayr"
+  },
+  {
+    "word": "مساء الخير",
+    "translation": "Good evening",
+    "example": "مساء الخير يا أمي.",
+    "pronunciation": "masā’ al-khayr"
+  },
+  {
+    "word": "مع السلامة",
+    "translation": "Goodbye",
+    "example": "أراك لاحقًا، مع السلامة!",
+    "pronunciation": "ma‘ al-salāmah"
+  },
+  {
+    "word": "أين؟",
+    "translation": "Where?",
+    "example": "أين الحمام؟",
+    "pronunciation": "ayna?"
+  },
+  {
+    "word": "ما هذا؟",
+    "translation": "What is this?",
+    "example": "ما هذا؟ إنه هاتف.",
+    "pronunciation": "mā hādhā?"
+  },
+  {
+    "word": "بيت",
+    "translation": "House",
+    "example": "أعيش في بيت كبير.",
+    "pronunciation": "bayt"
+  },
+  {
+    "word": "ماء",
+    "translation": "Water",
+    "example": "أشرب ماء كل صباح.",
+    "pronunciation": "māʾ"
+  },
+  {
+    "word": "طعام",
+    "translation": "Food",
+    "example": "الطعام لذيذ.",
+    "pronunciation": "ṭa‘ām"
+  },
+  {
+    "word": "قهوة",
+    "translation": "Coffee",
+    "example": "أحب القهوة في الصباح.",
+    "pronunciation": "qahwah"
+  },
+  {
+    "word": "كتاب",
+    "translation": "Book",
+    "example": "أقرأ كتاب كل يوم.",
+    "pronunciation": "kitāb"
+  },
+  {
+    "word": "قلم",
+    "translation": "Pen",
+    "example": "أكتب بالقلم الأزرق.",
+    "pronunciation": "qalam"
+  },
+  {
+    "word": "هاتف",
+    "translation": "Phone",
+    "example": "هاتفي جديد.",
+    "pronunciation": "hātif"
+  },
+  {
+    "word": "سيارة",
+    "translation": "Car",
+    "example": "سيارتي حمراء.",
+    "pronunciation": "sayyārah"
+  },
+  {
+    "word": "باب",
+    "translation": "Door",
+    "example": "افتح الباب من فضلك.",
+    "pronunciation": "bāb"
+  },
+  {
+    "word": "نافذة",
+    "translation": "Window",
+    "example": "النافذة مفتوحة.",
+    "pronunciation": "nāfidhah"
+  },
+  {
+    "word": "أم",
+    "translation": "Mother",
+    "example": "أمي تطبخ الطعام.",
+    "pronunciation": "umm"
+  },
+  {
+    "word": "أب",
+    "translation": "Father",
+    "example": "أبي في العمل.",
+    "pronunciation": "ab"
+  },
+  {
+    "word": "أخ",
+    "translation": "Brother",
+    "example": "أخي يحب كرة القدم.",
+    "pronunciation": "akh"
+  },
+  {
+    "word": "أخت",
+    "translation": "Sister",
+    "example": "أختي تدرس الآن.",
+    "pronunciation": "ukht"
+  },
+  {
+    "word": "مدرسة",
+    "translation": "School",
+    "example": "أنا أذهب إلى المدرسة يوميًا.",
+    "pronunciation": "madrasa"
+  },
+  {
+    "word": "عمل",
+    "translation": "Work",
+    "example": "لدي الكثير من العمل.",
+    "pronunciation": "‘amal"
+  },
+  {
+    "word": "طبيب",
+    "translation": "Doctor",
+    "example": "الطبيب في العيادة.",
+    "pronunciation": "ṭabīb"
+  },
+  {
+    "word": "وقت",
+    "translation": "Time",
+    "example": "ليس لدي وقت الآن.",
+    "pronunciation": "waqt"
+  },
+  {
+    "word": "جميل",
+    "translation": "Beautiful",
+    "example": "السماء جميلة اليوم.",
+    "pronunciation": "jamīl"
+  },
+  {
+    "word": "سعيد",
+    "translation": "Happy",
+    "example": "أنا سعيد جدًا!",
+    "pronunciation": "sa‘īd"
+  }
+]

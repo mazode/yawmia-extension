@@ -9,7 +9,7 @@
 ## 🔧 Tech Stack
 
 - **React + Plasmo** – Extension framework
-- **Tailwind CSS** – Styling
+- **CSS** – Styling
 - **Static JSON** – Word data (can later be API-powered)
 
 ---
