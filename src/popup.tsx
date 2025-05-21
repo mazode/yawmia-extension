@@ -3,32 +3,41 @@ import './styles/popup.css'
 import words from "src/data/words.json"
 
 function Popup() {
-  const [currentIndex, setCurrentIndex] = useState(() => new Date().getDate() % words.length)
-  const [favorites, setFavorites] = useState<string[]>([])
+  // 
+  const [currentIndex, setCurrentIndex] = useState(
+    () => new Date().getDate() % words.length
+  )
+  const [bookmarks, setBookmarks] = useState<number[]>([])
+  const [viewingBookmarks, setViewingBookmarks] = useState(false)
 
-  const todayWord = words[currentIndex]
-
+  
+  // Load bookmarks from localStorage on mount
   useEffect(() => {
-    const savedFavs = localStorage.getItem("favorites")
-    if(savedFavs) setFavorites(JSON.parse(savedFavs))
-  }, [])
-
+    const stored = localStorage.getItem("bookmarks")
+    if(stored) setBookmarks(JSON.parse(stored))
+    }, [])
+  
+  // Save bookmarks to localStorage when they change
   useEffect(() => {
-    localStorage.setItem("favorites", JSON.stringify(favorites))
-  }, [favorites])
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks))
+  }, [bookmarks])
+  
+  const currentWord = words[currentIndex]
 
-  const addToFavorites = () => {
-    if(!favorites.includes(todayWord.word)) {
-      setFavorites([...favorites, todayWord.word])
-    }
+  const toggleBookmark = () => {
+    setBookmarks((prev) => 
+      prev.includes(currentIndex)
+        ? prev.filter((i) => i !== currentIndex)
+        : [...prev, currentIndex]
+    )
   }
 
-  const showNewWord = () => {
-    let newIndex = currentIndex
-    while(newIndex === currentIndex) {
-      newIndex = Math.floor(Math.random() * words.length)
-    }
-    setCurrentIndex(newIndex)
+  const goToNextWord = () => {
+    setCurrentIndex((prev) => (prev + 1) % words.length)
+  }
+
+  const toggleViewBookmarks = () => {
+    setViewingBookmarks((prev) => !prev)
   }
 
   // const speak = () => {
@@ -48,15 +57,43 @@ function Popup() {
   return (
     <div className="popup-container">
       <h1 className="title">Yawmia</h1>
-      <div className="word-card">
-        <h2 className="arabic-word">{todayWord.word}</h2>
-        <p className="pronunciation">{todayWord.pronunciation}</p>
-        <p className="translation">{todayWord.translation}</p>
-        <p className="example">{todayWord.example}</p>
-        {/* <button onClick={speak} className="sound-button">🔊 Hear</button> */}
-        <button onClick={addToFavorites} className="favorite-button">⭐ Add to Favorites</button>
-        <button onClick={showNewWord} className="new-word-button">🔄 New Word</button>
-      </div>
+
+      <button className="toggle-button" onClick={toggleViewBookmarks}>
+        {viewingBookmarks ? "🔙 Back to Daily" : "📚 View Bookmarks"}
+      </button>
+
+      {viewingBookmarks ? (
+        <div className="bookmarks-list">
+          <h2 className="subtitle">Bookmarked Words</h2>
+          {bookmarks.length === 0 ? (
+            <p>No bookmarks yet.</p>
+          ) : (
+            bookmarks.map((i) => (
+              <div key={i} className="word-card">
+                <h2 className="arabic-word">{words[i].word}</h2>
+                <p className="pronunciation">{words[i].pronunciation}</p>
+                <p className="translation">{words[i].translation}</p>
+              </div>
+            ))
+          )}
+        </div>
+      ) : (
+        <div className="word-card">
+          <h2 className="arabic-word">{currentWord.word}</h2>
+          <p className="pronunciation">{currentWord.pronunciation}</p>
+          <p className="translation">{currentWord.translation}</p>
+
+          <div className="button-group">
+            <button className="bookmark-button" onClick={toggleBookmark}>
+              {bookmarks.includes(currentIndex) ? "🔖 Bookmarked" : "➕ Bookmark"}
+            </button>
+
+            <button className="next-button" onClick={goToNextWord}>
+              👉 Next Word
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
