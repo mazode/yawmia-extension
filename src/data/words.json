@@ -9,7 +9,7 @@
     "word": "نعم",
     "translation": "Yes",
     "example": "نعم، أنا أحب ذلك.",
-    "pronunciation": "na‘am"
+    "pronunciation": "na'am"
   },
   {
     "word": "لا",
@@ -39,13 +39,13 @@
     "word": "مساء الخير",
     "translation": "Good evening",
     "example": "مساء الخير يا أمي.",
-    "pronunciation": "masā’ al-khayr"
+    "pronunciation": "masā' al-khayr"
   },
   {
     "word": "مع السلامة",
     "translation": "Goodbye",
     "example": "أراك لاحقًا، مع السلامة!",
-    "pronunciation": "ma‘ al-salāmah"
+    "pronunciation": "ma' al-salāmah"
   },
   {
     "word": "أين؟",
@@ -75,7 +75,7 @@
     "word": "طعام",
     "translation": "Food",
     "example": "الطعام لذيذ.",
-    "pronunciation": "ṭa‘ām"
+    "pronunciation": "ṭa'ām"
   },
   {
     "word": "قهوة",
@@ -153,7 +153,7 @@
     "word": "عمل",
     "translation": "Work",
     "example": "لدي الكثير من العمل.",
-    "pronunciation": "‘amal"
+    "pronunciation": "'amal"
   },
   {
     "word": "طبيب",
@@ -177,6 +177,570 @@
     "word": "سعيد",
     "translation": "Happy",
     "example": "أنا سعيد جدًا!",
-    "pronunciation": "sa‘īd"
+    "pronunciation": "sa'īd"
+  },
+  {
+    "word": "كبير",
+    "translation": "Big",
+    "example": "البيت كبير.",
+    "pronunciation": "kabīr"
+  },
+  {
+    "word": "صغير",
+    "translation": "Small",
+    "example": "القطة صغيرة.",
+    "pronunciation": "ṣaghīr"
+  },
+  {
+    "word": "جديد",
+    "translation": "New",
+    "example": "اشتريت حاسوب جديد.",
+    "pronunciation": "jadīd"
+  },
+  {
+    "word": "قديم",
+    "translation": "Old",
+    "example": "المبنى قديم جداً.",
+    "pronunciation": "qadīm"
+  },
+  {
+    "word": "أبيض",
+    "translation": "White",
+    "example": "القميص أبيض.",
+    "pronunciation": "abyaḍ"
+  },
+  {
+    "word": "أسود",
+    "translation": "Black",
+    "example": "الحقيبة سوداء.",
+    "pronunciation": "aswad"
+  },
+  {
+    "word": "أحمر",
+    "translation": "Red",
+    "example": "التفاحة حمراء.",
+    "pronunciation": "aḥmar"
+  },
+  {
+    "word": "أزرق",
+    "translation": "Blue",
+    "example": "البحر أزرق.",
+    "pronunciation": "azraq"
+  },
+  {
+    "word": "أخضر",
+    "translation": "Green",
+    "example": "الشجرة خضراء.",
+    "pronunciation": "akhḍar"
+  },
+  {
+    "word": "أصفر",
+    "translation": "Yellow",
+    "example": "الشمس صفراء.",
+    "pronunciation": "aṣfar"
+  },
+  {
+    "word": "رجل",
+    "translation": "Man",
+    "example": "الرجل طويل.",
+    "pronunciation": "rajul"
+  },
+  {
+    "word": "امرأة",
+    "translation": "Woman",
+    "example": "المرأة طبيبة.",
+    "pronunciation": "imra'ah"
+  },
+  {
+    "word": "طفل",
+    "translation": "Child",
+    "example": "الطفل يلعب.",
+    "pronunciation": "ṭifl"
+  },
+  {
+    "word": "ولد",
+    "translation": "Boy",
+    "example": "الولد يدرس.",
+    "pronunciation": "walad"
+  },
+  {
+    "word": "بنت",
+    "translation": "Girl",
+    "example": "البنت تقرأ.",
+    "pronunciation": "bint"
+  },
+  {
+    "word": "صديق",
+    "translation": "Friend",
+    "example": "هو صديقي المفضل.",
+    "pronunciation": "ṣadīq"
+  },
+  {
+    "word": "طالب",
+    "translation": "Student",
+    "example": "الطالب مجتهد.",
+    "pronunciation": "ṭālib"
+  },
+  {
+    "word": "أستاذ",
+    "translation": "Teacher",
+    "example": "الأستاذ يشرح الدرس.",
+    "pronunciation": "ustādh"
+  },
+  {
+    "word": "اسم",
+    "translation": "Name",
+    "example": "ما اسمك؟",
+    "pronunciation": "ism"
+  },
+  {
+    "word": "عمر",
+    "translation": "Age",
+    "example": "كم عمرك؟",
+    "pronunciation": "'umr"
+  },
+  {
+    "word": "يوم",
+    "translation": "Day",
+    "example": "اليوم جميل.",
+    "pronunciation": "yawm"
+  },
+  {
+    "word": "ليلة",
+    "translation": "Night",
+    "example": "الليلة باردة.",
+    "pronunciation": "laylah"
+  },
+  {
+    "word": "صباح",
+    "translation": "Morning",
+    "example": "الصباح منعش.",
+    "pronunciation": "ṣabāḥ"
+  },
+  {
+    "word": "مساء",
+    "translation": "Evening",
+    "example": "المساء هادئ.",
+    "pronunciation": "masā'"
+  },
+  {
+    "word": "شمس",
+    "translation": "Sun",
+    "example": "الشمس ساطعة.",
+    "pronunciation": "shams"
+  },
+  {
+    "word": "قمر",
+    "translation": "Moon",
+    "example": "القمر مضيء.",
+    "pronunciation": "qamar"
+  },
+  {
+    "word": "نجم",
+    "translation": "Star",
+    "example": "النجوم جميلة.",
+    "pronunciation": "najm"
+  },
+  {
+    "word": "سماء",
+    "translation": "Sky",
+    "example": "السماء زرقاء.",
+    "pronunciation": "samā'"
+  },
+  {
+    "word": "أرض",
+    "translation": "Earth/Ground",
+    "example": "الأرض خضراء.",
+    "pronunciation": "arḍ"
+  },
+  {
+    "word": "بحر",
+    "translation": "Sea",
+    "example": "البحر عميق.",
+    "pronunciation": "baḥr"
+  },
+  {
+    "word": "جبل",
+    "translation": "Mountain",
+    "example": "الجبل عالي.",
+    "pronunciation": "jabal"
+  },
+  {
+    "word": "شجرة",
+    "translation": "Tree",
+    "example": "الشجرة كبيرة.",
+    "pronunciation": "shajarah"
+  },
+  {
+    "word": "زهرة",
+    "translation": "Flower",
+    "example": "الزهرة جميلة.",
+    "pronunciation": "zahrah"
+  },
+  {
+    "word": "حيوان",
+    "translation": "Animal",
+    "example": "الحيوان لطيف.",
+    "pronunciation": "ḥayawān"
+  },
+  {
+    "word": "قطة",
+    "translation": "Cat",
+    "example": "القطة نائمة.",
+    "pronunciation": "qiṭṭah"
+  },
+  {
+    "word": "كلب",
+    "translation": "Dog",
+    "example": "الكلب يلعب.",
+    "pronunciation": "kalb"
+  },
+  {
+    "word": "طائر",
+    "translation": "Bird",
+    "example": "الطائر يطير.",
+    "pronunciation": "ṭā'ir"
+  },
+  {
+    "word": "سمك",
+    "translation": "Fish",
+    "example": "السمك في الماء.",
+    "pronunciation": "samak"
+  },
+  {
+    "word": "خبز",
+    "translation": "Bread",
+    "example": "الخبز طازج.",
+    "pronunciation": "khubz"
+  },
+  {
+    "word": "لحم",
+    "translation": "Meat",
+    "example": "اللحم مطبوخ.",
+    "pronunciation": "laḥm"
+  },
+  {
+    "word": "فاكهة",
+    "translation": "Fruit",
+    "example": "الفاكهة حلوة.",
+    "pronunciation": "fākihah"
+  },
+  {
+    "word": "تفاحة",
+    "translation": "Apple",
+    "example": "التفاحة حمراء.",
+    "pronunciation": "tuffāḥah"
+  },
+  {
+    "word": "موز",
+    "translation": "Banana",
+    "example": "الموز أصفر.",
+    "pronunciation": "mawz"
+  },
+  {
+    "word": "برتقال",
+    "translation": "Orange",
+    "example": "البرتقال حامض.",
+    "pronunciation": "burtuqāl"
+  },
+  {
+    "word": "رز",
+    "translation": "Rice",
+    "example": "الرز مطبوخ.",
+    "pronunciation": "ruzz"
+  },
+  {
+    "word": "حليب",
+    "translation": "Milk",
+    "example": "الحليب أبيض.",
+    "pronunciation": "ḥalīb"
+  },
+  {
+    "word": "سكر",
+    "translation": "Sugar",
+    "example": "السكر حلو.",
+    "pronunciation": "sukkar"
+  },
+  {
+    "word": "ملح",
+    "translation": "Salt",
+    "example": "الملح في الطعام.",
+    "pronunciation": "milḥ"
+  },
+  {
+    "word": "مطبخ",
+    "translation": "Kitchen",
+    "example": "أمي في المطبخ.",
+    "pronunciation": "maṭbakh"
+  },
+  {
+    "word": "غرفة",
+    "translation": "Room",
+    "example": "الغرفة نظيفة.",
+    "pronunciation": "ghurfah"
+  },
+  {
+    "word": "حمام",
+    "translation": "Bathroom",
+    "example": "الحمام صغير.",
+    "pronunciation": "ḥammām"
+  },
+  {
+    "word": "سرير",
+    "translation": "Bed",
+    "example": "السرير مريح.",
+    "pronunciation": "sarīr"
+  },
+  {
+    "word": "كرسي",
+    "translation": "Chair",
+    "example": "الكرسي مكسور.",
+    "pronunciation": "kursī"
+  },
+  {
+    "word": "طاولة",
+    "translation": "Table",
+    "example": "الطعام على الطاولة.",
+    "pronunciation": "ṭāwilah"
+  },
+  {
+    "word": "مصباح",
+    "translation": "Lamp",
+    "example": "المصباح مضيء.",
+    "pronunciation": "miṣbāḥ"
+  },
+  {
+    "word": "تلفزيون",
+    "translation": "Television",
+    "example": "التلفزيون مفتوح.",
+    "pronunciation": "tilfiziyūn"
+  },
+  {
+    "word": "حاسوب",
+    "translation": "Computer",
+    "example": "الحاسوب جديد.",
+    "pronunciation": "ḥāsūb"
+  },
+  {
+    "word": "ساعة",
+    "translation": "Watch/Clock",
+    "example": "الساعة تشير إلى الثالثة.",
+    "pronunciation": "sā'ah"
+  },
+  {
+    "word": "نقود",
+    "translation": "Money",
+    "example": "لا أملك نقود كثيرة.",
+    "pronunciation": "nuqūd"
+  },
+  {
+    "word": "بنك",
+    "translation": "Bank",
+    "example": "البنك مغلق.",
+    "pronunciation": "bank"
+  },
+  {
+    "word": "مستشفى",
+    "translation": "Hospital",
+    "example": "المستشفى كبير.",
+    "pronunciation": "mustashfā"
+  },
+  {
+    "word": "صيدلية",
+    "translation": "Pharmacy",
+    "example": "الصيدلية قريبة.",
+    "pronunciation": "ṣaydaliyyah"
+  },
+  {
+    "word": "مطعم",
+    "translation": "Restaurant",
+    "example": "المطعم مزدحم.",
+    "pronunciation": "maṭ'am"
+  },
+  {
+    "word": "فندق",
+    "translation": "Hotel",
+    "example": "الفندق فخم.",
+    "pronunciation": "funduq"
+  },
+  {
+    "word": "طريق",
+    "translation": "Road",
+    "example": "الطريق طويل.",
+    "pronunciation": "ṭarīq"
+  },
+  {
+    "word": "شارع",
+    "translation": "Street",
+    "example": "الشارع ضيق.",
+    "pronunciation": "shāri'"
+  },
+  {
+    "word": "مدينة",
+    "translation": "City",
+    "example": "المدينة جميلة.",
+    "pronunciation": "madīnah"
+  },
+  {
+    "word": "قرية",
+    "translation": "Village",
+    "example": "القرية هادئة.",
+    "pronunciation": "qaryah"
+  },
+  {
+    "word": "دولة",
+    "translation": "Country",
+    "example": "الدولة كبيرة.",
+    "pronunciation": "dawlah"
+  },
+  {
+    "word": "أحب",
+    "translation": "I love",
+    "example": "أحب أهلي.",
+    "pronunciation": "uḥibb"
+  },
+  {
+    "word": "أريد",
+    "translation": "I want",
+    "example": "أريد أن أسافر.",
+    "pronunciation": "urīd"
+  },
+  {
+    "word": "أعرف",
+    "translation": "I know",
+    "example": "أعرف هذا المكان.",
+    "pronunciation": "a'rif"
+  },
+  {
+    "word": "أذهب",
+    "translation": "I go",
+    "example": "أذهب إلى العمل.",
+    "pronunciation": "adhhab"
+  },
+  {
+    "word": "آكل",
+    "translation": "I eat",
+    "example": "آكل الطعام.",
+    "pronunciation": "ākul"
+  },
+  {
+    "word": "أشرب",
+    "translation": "I drink",
+    "example": "أشرب الماء.",
+    "pronunciation": "ashrab"
+  },
+  {
+    "word": "أنام",
+    "translation": "I sleep",
+    "example": "أنام مبكراً.",
+    "pronunciation": "anām"
+  },
+  {
+    "word": "أدرس",
+    "translation": "I study",
+    "example": "أدرس اللغة العربية.",
+    "pronunciation": "adrus"
+  },
+  {
+    "word": "أعمل",
+    "translation": "I work",
+    "example": "أعمل في الشركة.",
+    "pronunciation": "a'mal"
+  },
+  {
+    "word": "أقرأ",
+    "translation": "I read",
+    "example": "أقرأ الجريدة.",
+    "pronunciation": "aqra'"
+  },
+  {
+    "word": "أكتب",
+    "translation": "I write",
+    "example": "أكتب رسالة.",
+    "pronunciation": "aktub"
+  },
+  {
+    "word": "أسمع",
+    "translation": "I hear",
+    "example": "أسمع الموسيقى.",
+    "pronunciation": "asma'"
+  },
+  {
+    "word": "أرى",
+    "translation": "I see",
+    "example": "أرى النجوم.",
+    "pronunciation": "arā"
+  },
+  {
+    "word": "أتكلم",
+    "translation": "I speak",
+    "example": "أتكلم العربية.",
+    "pronunciation": "atakallam"
+  },
+  {
+    "word": "أفهم",
+    "translation": "I understand",
+    "example": "أفهم ما تقول.",
+    "pronunciation": "afham"
+  },
+  {
+    "word": "سريع",
+    "translation": "Fast",
+    "example": "السيارة سريعة.",
+    "pronunciation": "sarī'"
+  },
+  {
+    "word": "بطيء",
+    "translation": "Slow",
+    "example": "الحافلة بطيئة.",
+    "pronunciation": "baṭī'"
+  },
+  {
+    "word": "قوي",
+    "translation": "Strong",
+    "example": "الرجل قوي.",
+    "pronunciation": "qawī"
+  },
+  {
+    "word": "ضعيف",
+    "translation": "Weak",
+    "example": "الضوء ضعيف.",
+    "pronunciation": "ḍa'īf"
+  },
+  {
+    "word": "ساخن",
+    "translation": "Hot",
+    "example": "الطقس ساخن.",
+    "pronunciation": "sākhin"
+  },
+  {
+    "word": "بارد",
+    "translation": "Cold",
+    "example": "الماء بارد.",
+    "pronunciation": "bārid"
+  },
+  {
+    "word": "طويل",
+    "translation": "Tall/Long",
+    "example": "الرجل طويل.",
+    "pronunciation": "ṭawīl"
+  },
+  {
+    "word": "قصير",
+    "translation": "Short",
+    "example": "الطفل قصير.",
+    "pronunciation": "qaṣīr"
+  },
+  {
+    "word": "نظيف",
+    "translation": "Clean",
+    "example": "البيت نظيف.",
+    "pronunciation": "naẓīf"
+  },
+  {
+    "word": "قذر",
+    "translation": "Dirty",
+    "example": "الثوب قذر.",
+    "pronunciation": "qadhir"
   }
 ]
