@@ -27,16 +27,3 @@
 - 🔊 **Audio Pronunciation** *(Coming Soon)*  
   Practice pronunciation with native-like audio (feature under development).
 
----
-
-## 🚀 Installation
-
-To install locally for development or testing:
-
-```bash
-git clone https://github.com/mazode/yawmia-extension.git
-cd yawmia-extension
-npm install
-npm run dev
-```
-
